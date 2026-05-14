@@ -9,6 +9,6 @@ def remove_duplicates(lst):
             result.append(item)
             
     return result
-my_list = [1,2,3,1,2,5,6,3]
+my_list = [1,2,3,1,2,5,6,3,4,5,6,7,7,8,10,11,10,2,11,10]
 output = remove_duplicates(my_list)
 print(output)
